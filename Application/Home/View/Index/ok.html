@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=0.5,initial-scale=0.5"/>
+    <title>报名提交成功</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 微软雅黑;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="background"><img src="__PUBLIC__/images/success.png" alt=""></div>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $("#background").css({
+            width: $(document).width(),
+            height: $(document).height()
+        })
+        $("#background>img").css({
+            width: $(document).width(),
+            height: $(document).height()
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #d3d3d3;
+	color: #313131;
+}
+input{
+	background-color: #d3d3d3;
+}
+p{
+	width: 911px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	float: left;
+}
+#wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+#images_title{
+	width: 526px;
+	height: 122px;
+	margin: 33px auto 0 auto;
+}
+#images_child_1{
+	margin-top: 33px;
+	margin-left: 41px;
+}
+#images_child_2{
+	margin-left: 41px;
+	margin-bottom: 32px;
+	float: left;
+}
+.word_change1{
+	font-size: 16px;
+	margin-left: 17px;
+}
+.word_change2{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #000;
+}
+.word_change3{
+	margin-left: 24px;
+}
+.word_change4{
+	height: 18px;
+	line-height: 18px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.span_radius{
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #313131;
+	border-radius: 100%;
+	margin-right: 3px;
+}
+.form_td_common,.form_td_sex,.form_td_academy,.form_td_obey{
+	width: 300px;
+	height: 20px;
+	font-family: "宋体";
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	float: left;
+	letter-spacing: 0px;
+}
+.form_td_date{
+	width: 550px;
+	height: 20px;
+	font-family: "宋体";
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	float: left;
+}
+.form_td_department{
+	width: 600px;
+	height: 20px;
+	font-family: "宋体";
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	float: left;
+}
+.form_td_special_1{
+	width: 111px;
+	height: 20px;
+	font-family: "宋体";
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 300px;
+	float: left;
+}
+.form_td_special_2{
+	width: 340px;
+	height: 162px;
+	font-family: "宋体";
+	text-align: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 4px;
+	margin-left: 71px;
+	margin-bottom: 37px;
+	float: left;
+}
+.form_td_must_question{
+	width: 919px;
+	height: 176px;
+	margin-left: 41px;
+	float: left;
+}
+.form_td_choose_question{
+	width: 919px;
+	height: 792px;
+	margin-top: 15px;
+	margin-left: 41px;
+	float: left;
+}
+
+.form_td_common>input{
+	width: 140px;
+	height: 20px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 17px;
+	margin-right: 20px;
+}
+.form_td_sex>#radio_man{
+	width: 30px;
+	margin-top: 1px;
+	margin-left: 17px;
+	margin-right: 20px;
+}
+.form_td_sex>#radio_woman{
+	width: 30px;
+	margin-left: 14px;
+	margin-right: 20px;
+}
+.form_td_date>#year{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 17px;
+	margin-right: 10px;:
+}
+.form_td_date>#month{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 3px;
+	margin-right: 10px;:
+}
+.form_td_date>#day{
+	width: 90px;
+	height: 20px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 3px;
+	margin-right: 10px;:
+}
+.form_td_academy>#academy{
+	width: 142px;
+	height: 22px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 17px;
+	margin-right: 20px;
+	background-color: #d3d3d3;
+}
+.form_td_department>#first_department{
+	width: 120px;
+	height: 22px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 10px;
+	margin-right: 3px;
+	background-color: #d3d3d3;
+}
+.form_td_department>#second_department{
+	width: 120px;
+	height: 22px;
+	border: 1px solid #000;
+	margin-top: -2px;
+	margin-left: 12px;
+	margin-right: 20px;
+	background-color: #d3d3d3;
+}
+.form_td_obey>#obey{
+	width: 20px;
+	margin-top: -2px;
+	margin-left: 17px;
+	margin-right: 140px;
+}
+.form_td_special_2>textarea{
+	width: 280px;
+	height: 160px;
+	border: 1px solid #000;
+	font-size: 20px;
+	float: left;
+	background-color: #d3d3d3;
+}
+.form_td_must_question>textarea{
+	width: 380px;
+	height: 100px;
+	border: 1px solid #000;
+	margin-top: 10px;
+	font-size: 20px;
+	float: left;
+	background-color: #d3d3d3;
+}
+.form_td_choose_question>p>input{
+	width: 30px;
+	margin-left: 12px;
+	margin-right: 10px;
+}
+.form_td_choose_question>textarea{
+	width: 380px;
+	height: 80px;
+	border: 1px solid #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	float: left;
+	background-color: #d3d3d3;
+}
+.form_td_submit{
+	width: 960px;
+	height: 30px;
+	margin: 30px auto;
+	float: left;
+}
+.form_td_submit>input{
+	width: 100px;
+	height: 35px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #004593;
+	margin-left: 430px;
+	border-radius: 8px;
+}

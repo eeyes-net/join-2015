@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=0.5,initial-scale=0.5"/>
+    <title>e瞳网二次招新_报名申请</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/e_yingxin_3.css" type="text/css">
+</head>
+<body>
+    <div id="alert"><p id="confirmAlert">了解！</p><span>请填写正确的邮箱地址！</span></div>
+    <div id="background"><img src="__PUBLIC__/images/pic3.png" alt=""></div>
+    <!-- <img src="pic3.png" class="bk"> -->
+    <img src="__PUBLIC__/images/title3.png" alt="e瞳网报名第三弹" id="titlepic">
+    <h2 class="title">e瞳网<br><span>报名申请</span></h2>
+    <form class="mainForm" action="{:U('data')}">
+        <span>姓名</span><input type="text" name="name"><br>
+        <span>性别</span><input type="radio" name='sex' value="male" id="male"><span class="afterRadio">男</span><input type="radio" name='sex' value="female" id="female"><span class="afterRadio">女</span><br>
+        <span>籍贯</span><input type="text" name="native_place"><br>
+        <span>书院</span><input type="text" name="academy"><br>
+        <span>班级</span><input type="text" name="class"><br>
+        <span>手机</span><input type="text" name="mobile"><br>
+        <span>邮箱</span><input type="email" name="email"><br>
+        <span>部门</span>
+        <select name="firstWant" id="firstWant">
+            <option value="0">第一志愿</option>
+            <option value="1">市场部</option>
+            <option value="2">项目部</option>
+            <option value="3">新闻部</option>
+            <option value="4">影视部</option>
+            <option value="5">新媒体部</option>
+            <option value="6">前端美工部</option>
+            <option value="7">后台Web部</option>
+            <option value="8">后台App部</option>
+            <option value="9">蓝鲸</option>
+            <option value="10">公关部</option>
+        </select>
+        <select name="secondWant" id="secondWant">
+            <option value="0">第二志愿</option>
+            <option value="1">市场部</option>
+            <option value="2">项目部</option>
+            <option value="3">新闻部</option>
+            <option value="4">影视部</option>
+            <option value="5">新媒体部</option>
+            <option value="6">前端美工部</option>
+            <option value="7">后台Web部</option>
+            <option value="8">后台App部</option>
+            <option value="9">蓝鲸</option>
+            <option value="10">公关部</option>
+        </select>
+        <p class="selfIntro">个人简介+竞聘理由</p>
+        <textarea name="intro"></textarea>
+        <p class="selfIntro">你为什么加入e瞳网</p>
+        <textarea type="text" name="reason"></textarea>
+        <div class="submitDiv"><input type="submit" value="提交" id="submit"></div>
+    </form>
+    </div>
+    <script type="text/javascript">
+        postUrl = "{:U('data')}";
+        okUrl = "{:U('ok')}";
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/e_yingxin_3.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.idea
+Application/Runtime
+ThinkPHP/*
+!ThinkPHP/Library
+ThinkPHP/Library/*
+!ThinkPHP/Library/Vendor
